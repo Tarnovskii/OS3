@@ -1,0 +1,56 @@
+.wrapper  {
+  background: #0000A8;
+  border: 10px double #57FFFF;
+  color: white;
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+
+  p {
+    background: #A80000;
+    text-align: center;
+    font-weight: bold;
+    color: #F7F879;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #57FFFF;
+  }
+
+  textarea {
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    resize: none;
+    width: 100% !important;
+    height: 100%;
+  }
+
+  textarea, input {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+  }
+}
+
+.input_wrapper {
+  padding-left: 10px;
+  border-top: 1px solid #57FFFF;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+  }
+}
