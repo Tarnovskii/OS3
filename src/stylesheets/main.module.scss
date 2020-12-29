@@ -88,16 +88,21 @@
   }
 
   b:nth-child(2) {
-    flex: 0 0 60px;
+    flex: 0 0 90px;
     border-right: 1px solid #57FFFF;
   }
 
   b:nth-child(3) {
-    flex: 0 0 60px;
+    flex: 0 0 120px;
     border-right: 1px solid #57FFFF;
   }
 
   b:nth-child(4) {
+    flex: 0 0 90px;
+    border-right: 1px solid #57FFFF;
+  }
+
+  b:nth-child(5) {
     flex: 1 1 100%;
   }
 }
